@@ -55,7 +55,6 @@ mixin template Bwt() {
   }
 }
 
-
 unittest {
   mixin Bwt;
   assert(rotate("banana", 0) == "ananab");
